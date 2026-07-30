@@ -4,10 +4,10 @@ MediaPipe Face Mesh를 이용해 얼굴을 추적하고, 추적 결과를 Unity�
 
 ---
 
----
 
 ## Demo
 
+<img width="1562" height="807" alt="Image" src="https://github.com/user-attachments/assets/9384040e-c63b-40db-ad9c-085c44f88236" />
 
 ---
 
