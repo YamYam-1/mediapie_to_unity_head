@@ -1,4 +1,4 @@
-# meidapipe to unity
+# meidapipe for unity
 
 MediaPipe Face Mesh를 이용해 얼굴을 추적하고, 추적 결과를 Unity의 VRM 아바타에 실시간으로 적용하는 프로젝트입니다.
 
