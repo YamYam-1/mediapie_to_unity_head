@@ -6,7 +6,7 @@ import socket
 
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-server_addr = ('192.168.0.2', 800)
+server_addr = ('IP', PORT)
 
 # MediaPipe 초기화
 mp_face_mesh = mp.solutions.face_mesh
@@ -56,18 +56,6 @@ indices = [
     58,   # Left jaw
     288   # Right jaw
 ]
-
-eye_idx = [145, 159, 374, 386]
-
-mouth_idx = [13, 14, 61, 291]
-
-prev_yaw = 0.0
-prev_pitch = 0.0
-prev_roll = 0.0
-prev_left_blink = 0.0
-prev_right_blink = 0.0
-alpha = 0.2
-eye_alpha = 0.5
 
 while cap.isOpened():
     success, image = cap.read()
